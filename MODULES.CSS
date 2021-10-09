@@ -1,0 +1,55 @@
+.sem{
+    font-weight: bold;
+    color:#1D4FAB; 
+    font-size: 100%;
+    text-align: center;
+    margin: 20px;
+    
+}
+.container {
+    display: flex;
+    padding-bottom: 50px;
+  }
+  
+  .section {
+    flex: 1; /*grow*/
+    padding:0px 15px;
+  }
+  
+ 
+.section p{
+    background-color: white;
+    color: black;
+    font-size: 40%;
+    padding: 0 40px;
+    padding-bottom: 20px;
+}
+.section h3{
+    background-color: #1D4FAB;
+    color: #F4F3F1;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-size: 90%;
+    
+    
+}
+.section h5{
+    padding: 0 40px;
+    color: #1D4FAB;
+    font-size: 70%;
+}
+@media (max-width: 768px) { 
+  .container {
+    flex-direction: column;
+    
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    
+  }
+}
